@@ -28,7 +28,8 @@ return newerDrivers
 }
 
 function removeLastDriver(){
-  drivers.slice(1);
+let newestDrivers = drivers.slice(1);
+return newestDrivers
 }
 
 removeFirstDriver()
