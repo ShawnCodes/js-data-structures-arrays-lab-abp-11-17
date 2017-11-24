@@ -32,4 +32,7 @@ let newestDrivers = drivers.slice(0, drivers.length - 1);
 return newestDrivers
 }
 
-removeFirstDriver()
+function removeFirstDriver() {
+  let evenNewestDrivers = drivers.slice(1);
+  return evenNewestDrivers
+}
