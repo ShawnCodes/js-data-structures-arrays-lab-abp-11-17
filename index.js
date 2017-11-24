@@ -18,5 +18,5 @@ function destructivelyRemoveFirstDriver() {
 }
 
 function appendDriver(name){
-appendDriver = [...drivers, "Broom"];
+newArray = [...drivers, "Broom"];
 }
